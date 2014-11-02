@@ -1,0 +1,8 @@
+# Python
+*.pyc
+
+# no secrets here
+keys.py
+
+# SQLite
+*.db
