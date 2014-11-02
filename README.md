@@ -1,20 +1,23 @@
-# @drakeomatic
+# @automaticstartup
 
 What is this?
 
-[@drakeomatic](http://twitter.com/drakeomatic) is one of the most common styles of twitter bot: A Markov text generator. [@drakeomatic](http://twitter.com/drakeomatic) analyzes Drake lyrics that were pulled from rapgenius.com and then constructs tweets that are sometimes insightful, sometimes funny, sometimes quotes, and ~~sometimes~~ often complete gibberish.
+[@automaticstartup](http://twitter.com/automaticstartup) is one of the most common styles of twitter bot: A Markov text generator. [@automaticstartup](http://twitter.com/automaticstartup) analyzes startup names that were pulled from crunchbase.com and then constructs tweets that are scalable, enterprise-ready and inspirational.
 
-While the bot is called Drake-o-matic, it is based on the wonderful [markov-text](https://github.com/codebox/markov-text) by [Code Box](http://http://codebox.org.uk) and can learn to construct sentences after studying any body of text. So, have fun! Make your own bot! Just know that I called dibs on a Taylor Swift bot (and a Taylor Swift + Drake bot).
+This bot is based upon [Drake-o-matic](https://twitter.com/drakeomatic) which uses [markov-text](https://github.com/codebox/markov-text) by [Code Box](http://http://codebox.org.uk) and can learn to construct sentences after studying any body of text.
 
 Requirements:
  * [Twitter for Python](https://pypi.python.org/pypi/twitter)
 
 How To Use:
  * Clone this repo and edit the settings in `keys.rb.example`.
- * Assemble a corpus of text and save it in the drakeomatic directory as a plaintext file.
- * Tell the bot to analyze your corpus of data using the following command: `python drakeomatic.py parse <name> <depth> <file>`
- * Setup cron jobs to tweet at regular intervals using the following command: `python drakeomatic.py gen <name> <count>`
- * Remember: NO TAYLOR SWIFT BOTS. Those are mine.
+ * Assemble a corpus of text and save it in the automaticstartup directory as a plaintext file.
+ * Tell the bot to analyze your corpus of data using the following command: `python automaticstartup.py parse <name> <depth> <file>`
+ * Setup cron jobs to tweet at regular intervals using the following command: `python automaticstartup.py gen <name> <count>`
+
+Todo:
+ * Incorporate startup descriptions and/or pitches into the source database for better viral growth wordage.
 
 Thanks:
+ * To [Anthony Prestia](https://github.com/prestia).
  * To [Rob Dawson](https://github.com/codebox).
