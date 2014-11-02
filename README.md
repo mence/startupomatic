@@ -10,7 +10,7 @@ Requirements:
  * [Twitter for Python](https://pypi.python.org/pypi/twitter)
 
 How To Use:
- * Clone this repo and edit the settings in `keys.rb.example`.
+ * Clone this repo and edit the settings in `keys.py.example`.
  * Assemble a corpus of text and save it in the automaticstartup directory as a plaintext file.
  * Tell the bot to analyze your corpus of data using the following command: `python automaticstartup.py parse <name> <depth> <file>`
  * Setup cron jobs to tweet at regular intervals using the following command: `python automaticstartup.py gen <name> <count>`
